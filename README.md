@@ -1,12 +1,20 @@
-### ENCODER 8TO3 DATAFLOW Modelling
+Nmae:Bindhujaa.S
+
+Register No: 24901119
+
+
+**Experiment5: ENCODER 8TO3 DATAFLOW Modelling**
+
 
 **AIM:**
 
 To implement  Encoder 8 To 3 in Dataflow Modelling using verilog and validating their functionality using their functional tables
 
-**SOFTWARE REQUIRED:** Quartus prime
+**SOFTWARE REQUIRED:**
 
-**THEORY**
+Quartus prime
+
+
 
 **Encoder 8 To 3**
 
@@ -36,22 +44,20 @@ Figure 02  Encoder 8 * 3
 
 **Procedure**
 
-/* write all the steps invloved */
+1.Type the program in Quartus software.
+
+2.Compile and run the program.
+
+3.Generate the RTL schematic and save the logic diagram.
+
+4.Create nodes for inputs and outputs to generate the timing diagram.
+
+5.For different input combinations generate the timing diagram
 
 **PROGRAM**
 
-/* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
-```
-module experiment5(din,a,b,c);
-input [0:7] din;
-output a,b,c;
-assign a=(din[4]| din[5]| din[6]| din[7]);
-assign b=(din[2]| din[3]| din[6]| din[7]);
-assign c=(din[2]| din[3]| din[5]| din[7]);
-endmodule
-```
-Developed by: Bindhujaa.S
-RegisterNumber:24901119
+
+![Screenshot 2024-12-19 205338](https://github.com/user-attachments/assets/7075b6e8-835e-4b4a-81ce-11da72cc1d27)
 
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
@@ -61,7 +67,8 @@ RegisterNumber:24901119
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
 
-![Screenshot 2024-12-05 183807](https://github.com/user-attachments/assets/0ec4baaf-6d22-4926-b830-c422def0997d)
+![Screenshot 2024-12-19 205516](https://github.com/user-attachments/assets/2e60bde6-4bbf-49ab-9f9d-554ef01bc912)
+
 
 **RESULTS**
 
